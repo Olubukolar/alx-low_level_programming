@@ -2,25 +2,22 @@
 
 /**
  * main - print all alphabet in lower and uppercase
- * Return: Always (0)
  *
+ * Return: Always (0)
  */
 int main(void)
 {
-	int n = 97;
+	char i;
+	char j;
 
-	n = 65;
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		putchar(i);
+	}
 
-	while (n <= 122)
+	for (i = 'A'; i <= 'Z'; i++)
 	{
-		putchar(n);
-		n++;
+		putchar(i);
 	}
-	while (n <= 90)
-	{
-		putchar(n);
-		n++;
-	}
-		putchar('\n');
 	return (0);
 }
