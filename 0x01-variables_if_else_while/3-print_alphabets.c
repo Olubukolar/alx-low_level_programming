@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <ctype.h>
 /**
  * main - print all alphabet in lower and uppercase
  *
@@ -8,16 +8,16 @@
 int main(void)
 {
 	char i;
-	char j;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		putchar(i);
 	}
 
-	for (i = 'A'; i <= 'Z'; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(i);
+		putchar(toupper(i));
 	}
+	putchar('⧵n');
 	return (0);
 }
