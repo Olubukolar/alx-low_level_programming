@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - print putchar followed by a new line
- *
+ * declaration: print _putchar which should be returned by a zero
  * Return: Always (0)
  */
 int main(void)
@@ -14,6 +14,6 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
