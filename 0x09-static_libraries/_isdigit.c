@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _isalpha - function prototype
+ * _isdigit - main entry
  * @c: parameter to be checked
- *
  * Return: Always (0)
  */
-int _isalpha(int c)
+int _isdigit(int c)
+{
+}
