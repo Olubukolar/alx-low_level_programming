@@ -4,12 +4,12 @@
 #include <stdlib.h>
 #include <limits.h>
 
-	/**
-	 * main - check the code
-	 *
-	 * Return: Always 0.
-	 */
-	int main(void)
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
 	char *c;
 	int *i;
