@@ -1,10 +1,10 @@
-#include "variadic_functiins.h"
+#include "variadic_functions.h"
 #include <stdarg.h>
 
 /**
  * sum_them_all - function that sums up integers
  * @n: parameter 1
- *
+ * @...: parameter 2
  * Return: Always (0)
  */
 int sum_them_all(const unsigned int n, ...)
@@ -18,7 +18,7 @@ int sum_them_all(const unsigned int n, ...)
 
 	sum = 0;
 	for (i = 0 ; i < n ; i++)
-		sum += (ap, int);
-	va_arg(ap);
+		sum += va_arg(ap, int);
+	va_end(ap);
 	return (sum);
 }
